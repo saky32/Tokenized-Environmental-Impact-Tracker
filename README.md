@@ -29,3 +29,7 @@ Our mission is to create a decentralized and transparent incentive system that p
 | 🧾 Role-Based Access Control  | Admins and validators operate under strict access permissions.              |
 | 🌍 EVM & CoreDAO Compatible   | Deployed on CoreDAO for scalability, speed, and low transaction fees.       |
 
+## Contract Addres 
+0xc79ce326A6CE4dAAca65f2a8F2Cb7BE39727434E
+
+![image](https://github.com/user-attachments/assets/7985004a-f038-4ed4-8efb-30c65de4c1e8)

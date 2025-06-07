@@ -73,5 +73,6 @@ Our mission is to create a decentralized and transparent incentive system that p
 git clone https://github.com/saky32/Tokenized-Environmental-Impact-Tracker.git
 cd Tokenized-Environmental-Impact-Tracker
 npm install
+npm start
 
 

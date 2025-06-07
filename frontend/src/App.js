@@ -9,14 +9,21 @@ function App() {
 
   return (
     <div className="App">
-      <h1>EcoToken DAO Dashboard</h1>
-      <ConnectWallet setSigner={setSigner} setAccount={setAccount} />
-      {signer && (
-        <>
-          <RewardUser signer={signer} />
-          <AdminPanel signer={signer} />
-        </>
-      )}
+      <header className="App-header">
+        <h1 style={{ marginBottom: '1rem' }}>🌿 EcoToken DAO Dashboard</h1>
+        <ConnectWallet setSigner={setSigner} setAccount={setAccount} />
+      </header>
+
+      <main>
+        {signer ? (
+          <>
+            <RewardUser signer={signer} />
+            <AdminPanel signer={signer} />
+          </>
+        ) : (
+          <p>Please connect your wallet to access the dashboard features.</p>
+        )}
+      </main>
     </div>
   );
 }

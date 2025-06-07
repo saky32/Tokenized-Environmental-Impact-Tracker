@@ -1,31 +1,44 @@
 .App {
   text-align: center;
+  background-color: #f0f9f2; /* light eco-friendly green background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
+  margin-top: 20px;
   pointer-events: none;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e8f5e9; /* soft green tone */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(12px + 2vmin);
+  padding: 20px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #27ae60; /* green-themed link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.App-link:hover {
+  color: #1e8449;
 }
 
 @keyframes App-logo-spin {
